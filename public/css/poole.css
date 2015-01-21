@@ -88,19 +88,19 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-bottom:2rem;
 }
 h2 {
-  margin-top: 1rem;
-  font-size: 1.6rem;
+  margin-top: 1.6rem;
+  font-size: 1.4rem;
    border-bottom: 1px solid #ccc;
    padding-bottom: .2em;
    margin-bottom: .5em;
 }
 h3 {
   margin-top: 1.2rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 h4, h5, h6 {
   margin-top: 1rem;
@@ -110,8 +110,8 @@ h4, h5, h6 {
 /* Body text */
 p {
   margin-top: 0;
-  font-size: 1.1rem;
-  line-height: 1.8rem;
+  font-size: 1rem;
+  line-height: 1.4rem;
   margin-bottom: 1rem;
   font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";
   color:#444;
@@ -125,8 +125,8 @@ strong {
 /* Lists */
 ul, ol, dl {
   margin-top: 0;
-   font-size: 1.05rem;
-  line-height: 1.8rem;
+   font-size: .8rem;
+  line-height: 1.2rem;
   margin-bottom: 2rem;
    font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";
 }
