@@ -1,15 +1,16 @@
 # Dependencies
 markdown:         redcarpet
 highlighter:      pygments
+permalink: /:year/:month/:day/:title
 
 # Permalinks
-permalink:        pretty
+permalink: /:year/:month/:day/:title
 relative_permalinks: true
 
 # Setup
-title:            Hyde
+title:            DriftingDog
 tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      '一只编程狗的乌有之乡'
 url:              http://hyde.getpoole.com
 baseurl:          /
 

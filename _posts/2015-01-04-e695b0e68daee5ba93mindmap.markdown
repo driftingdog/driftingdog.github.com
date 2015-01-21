@@ -1,0 +1,20 @@
+---
+author: jarry046
+comments: true
+date: 2015-01-04 15:59:07+00:00
+layout: post
+slug: '%e6%95%b0%e6%8d%ae%e5%ba%93mindmap'
+title: 数据库MindMap
+wordpress_id: 59
+categories:
+- 代码之术
+tags:
+- drifting dog
+- 技术博客
+- 独立博客
+---
+
+来一杯清凉可口提神醒脑的[数据库]， 祛一下在编译器里捂出的霉。<!-- more -->
+复(预)习了前三章的内容，总得来说数据库还是一门平易近人的“文学课”，概念虽然多了点，涉及的理论基础其实也就是简单的集合论，亲自写过一些查询代码之后再回来看这些理论有种豁然开朗的感觉。
+
+[caption id="attachment_64" align="alignnone" width="92"][![数据库思维导图](http://www.driftingdog.com/wp-content/uploads/2015/01/数据库-2-92x300.jpg)](http://www.driftingdog.com/wp-content/uploads/2015/01/数据库-2.jpg) 数据库思维导图[/caption]

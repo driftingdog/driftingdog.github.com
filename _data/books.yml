@@ -1,0 +1,43 @@
+- name: 1913：世纪之夏的浪荡子们
+  ename: 1913：Der Sommer des Jahrhunderts
+  author: 弗洛里安·伊利斯 
+  type: 历史
+  intro: 一本荡气回肠的历史书，1913，人类文明的盛夏，是结束，也是开始
+  pub: 东西文库
+  nation: 法国
+  read: 已读
+
+- name: 乌合之众
+  ename: The Crowd
+  author: 古斯塔夫·勒庞
+  type: 社会心理学 
+  intro: 描写集体心理学的著作
+  pub: 东西文库
+  nation: 法国
+  read: 已读
+
+- name: 字体故事
+  ename: Just My Type
+  author: 西蒙·加菲尔德
+  type: 科普
+  intro: 教你换个角度“读书”
+  pub: 东西文库
+  nation: 英国
+  read: 已读
+
+- name: 世界摄影图鉴
+  author: 《世界摄影图鉴》编辑部
+  type: 科普
+  intro: 影像魅力的科普书
+  pub: 陕西师范大学出版社
+  nation: 中国
+  read: 在读
+
+- name: javascript权威指南
+  ename: JavaScript：The Definitive Guide Sixth Edition
+  author: DavidFlanagan
+  type: 计算机
+  intro: 关于javascript的一切
+  pub: 东西文库
+  nation: 美国
+  read: 在读

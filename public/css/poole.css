@@ -49,7 +49,7 @@ body {
 
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
 }
 @media (min-width: 38em) {
@@ -89,24 +89,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
   font-size: 2rem;
+  margin-bottom:2rem;
 }
 h2 {
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+   border-bottom: 1px solid #ccc;
+   padding-bottom: .2em;
+   margin-bottom: .5em;
 }
 h3 {
-  margin-top: 1.5rem;
-  font-size: 1.25rem;
+  margin-top: 1.2rem;
+  font-size: 1.4rem;
 }
 h4, h5, h6 {
   margin-top: 1rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 /* Body text */
 p {
   margin-top: 0;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
   margin-bottom: 1rem;
+  font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";
+  color:#444;
 }
 
 strong {
@@ -117,7 +125,10 @@ strong {
 /* Lists */
 ul, ol, dl {
   margin-top: 0;
-  margin-bottom: 1rem;
+   font-size: 1.05rem;
+  line-height: 1.8rem;
+  margin-bottom: 2rem;
+   font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";
 }
 
 dt {
@@ -153,11 +164,14 @@ pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
 }
 code {
-  padding: .25em .5em;
+  padding: .20em .5em;
   font-size: 85%;
   color: #bf616a;
-  background-color: #f9f9f9;
-  border-radius: 3px;
+  background-color: #fff;
+  border-radius: 5px;
+
+  
+  margin-bottom: 2em;
 }
 pre {
   display: block;
@@ -165,12 +179,13 @@ pre {
   margin-bottom: 1rem;
   padding: 1rem;
   font-size: .8rem;
-  line-height: 1.4;
+  line-height: 1.2;
   white-space: pre;
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
   background-color: #f9f9f9;
+
 }
 pre code {
   padding: 0;
@@ -331,13 +346,14 @@ tbody tr:nth-child(odd) th {
 .page,
 .post {
   margin-bottom: 4em;
+
 }
 
 /* Blog post or page title */
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #339999;
 }
 .page-title,
 .post-title {
