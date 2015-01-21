@@ -111,7 +111,7 @@ h4, h5, h6 {
 p {
   margin-top: 0;
   font-size: 1rem;
-  line-height: 1.4rem;
+  line-height: 1.5rem;
   margin-bottom: 1rem;
   font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";
   color:#444;
@@ -125,8 +125,8 @@ strong {
 /* Lists */
 ul, ol, dl {
   margin-top: 0;
-   font-size: .8rem;
-  line-height: 1.2rem;
+   font-size: 1rem;
+  line-height: 1.5rem;
   margin-bottom: 2rem;
    font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";
 }
