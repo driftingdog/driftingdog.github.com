@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js – The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="http://cdn.bootcss.com/reveal.js/3.3.0/css/reveal.min.css">
+		<link href="http://cdn.bootcss.com/reveal.js/3.3.0/css/theme/solarized.min.css" rel="stylesheet">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="http://cdn.bootcss.com/reveal.js/3.3.0/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<style>
+		.reveal table{
+			font-size: 14px;
+		}
+		.reveal h1{
+			font-size: 80px;
+		}
+		.reveal h2{
+			font-weight: bold;
+		}
+		.reveal p{
+			text-align: left;
+		}
+		.reveal ol{
+			font-size: .8em;
+
+		}
+		.reveal a{
+			color: #64A18A;
+		}
+		.reveal h2{
+			font-size: 70px;
+			color: #C77966;
+		}
+	</style>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1><b>历年kDD Cup总结</b></h1>
+					<h4>数据挖掘导论大作业指南</h4>
+					<h5>
+						<small>助教  <a>王晓健</a>/ <a href="mailto:wangxjbuaa@foxmail.com">wangxjbuaa@foxmail.com</a></small>
+					</h5>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+						## KDD Cup介绍
+
+						国际知识发现和数据挖掘竞赛(KDD Cup)是由ACM的数据挖掘和知识发现专委会(SIGKDD)主办的数据挖掘和研究领域的顶级赛事，KDD的全称是Knowledge Discovery and Data Mining，即知识发现和数据挖掘 
+
+						KDD Cup历年的比赛题取自不同的挖掘领域，并都有很强的应用背景。KDD Cup的获胜队伍，将被邀请在当年举办的ACM SIGKDD Conference国际会议上提交论文并作技术报告，这些技术推动了数据挖掘行业不断向前发展。
+
+
+					</script>
+				</section>
+				<section>
+
+					<a href="http://www.kdd.org/kdd-cup" target="_blank">http://www.kdd.org/kdd-cup</a>
+					<iframe src="http://www.kdd.org/kdd-cup" width="1000px" height="600px" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+				</section>
+				<section>
+					<table class="table table-bordered table-striped">
+                         <colgroup><col class="col-xs-3"><col class="col-xs-6"><col class="col-xs-1"></colgroup> 
+                         <thead><tr><th>Competition</th><th>Description</th></tr></thead>
+                         <tbody>
+                                             
+                                             <tr style="font-size: 1.2em;"><td><b><a target="_blank" href="https://kddcup2016.azurewebsites.net/">KDD Cup 2016</a></b></td><td>Whose papers are accepted the most: towards measuring the impact of research institutions</td></tr>
+                                             
+                                             <tr style="font-size: 1.2em;"><td><b><a href="http://www.kddcup2015.com/information.html" target="_blank">KDD Cup 2015</a></b></td><td>Predicting dropouts in MOOC </td></tr>
+                                             <tr style="font-size: 1.2em;"><td><b><a href="https://www.kaggle.com/c/kdd-cup-2014-predicting-excitement-at-donors-choose/" target="_blank">KDD Cup 2014</a></b></td><td>Predict funding requests that deserve an A+ </td></tr>
+                                             
+                                             <tr style="font-size: 1.2em;"><td><b><a href="https://www.kaggle.com/c/kdd-cup-2013-author-paper-identification-challenge" target="_blank">KDD Cup 2013</a></b></td><td>Determine whether an author has written a given paper</td></tr>
+                                             
+                                            
+                                             
+                                             <tr style="font-size: 1.2em;"><td><b><a href="http://www.kddcup2012.org/c/kddcup2012-track2"target="_blank">KDD Cup 2012 (Track 2)</a></b></td><td>Predict the click-through rate of ads given the query and user information</td></tr>
+                                             
+                                             <tr style="font-size: 1.2em;"><td><b><a href="http://www.kddcup2012.org/c/kddcup2012-track1"target="_blank">KDD Cup 2012 (Track 1)</a></b></td><td>Predict which users (or information sources) one user might follow in Tencent Weibo</td></tr>
+                                             
+                                             <tr style="font-size: 1.2em;"><td><b><a href="http://www.kdd.org/kdd2011/kddcup.shtml" target="_blank">KDD Cup 2011</a></b></td><td>Predict music ratings and identify favorite songs</td></tr>
+                                             
+                                             <tr style="font-size: 1.2em;"><td><b><a href="http://pslcdatashop.web.cmu.edu/KDDCup/" target="_blank">KDD Cup 2010</a></b></td><td>Student performance evaluation</td></tr>
+                                             
+                                             <tr style="font-size: 1.2em;"><td><b><a href="http://www.kdd.org/kdd-cup/view/kdd-cup-2009">KDD Cup 2009</a></b></td><td>Customer relationship prediction</td><td><a href="http://www.kdd.org/kdd-cup/view/kdd-cup-2009"><i class="i-plain icon-external-link"></i></a></td></tr>
+                                             
+                                             <tr style="font-size: 1.2em;"><td><b><a href="http://www.kdd2008.com/" target="_blank">KDD Cup 2008</a></b></td><td>Breast cancer</td></tr>
+                                             
+                                             <tr style="font-size: 1.2em;"><td><b><a href="https://www.cs.uic.edu/~liub/Netflix-KDD-Cup-2007.html#download" target="_blank">KDD Cup 2007</a></b></td><td>Consumer recommendations</td></tr>
+                                             
+                                             <tr style="font-size: 1.2em;"><td><b><a href="http://www.kdd.org/kdd-cup/view/kdd-cup-2006">KDD Cup 2006</a></b></td><td>Pulmonary embolisms detection from image data</td><td><a href="http://www.kdd.org/kdd-cup/view/kdd-cup-2006"><i class="i-plain icon-external-link"></i></a></td></tr>
+                                             
+                                             <tr style="font-size: 1.2em;"><td><b><a href="http://www.kdd.org/kdd-cup/view/kdd-cup-2005">KDD Cup 2005</a></b></td><td>Internet user search query categorization</td><td><a href="http://www.kdd.org/kdd-cup/view/kdd-cup-2005"><i class="i-plain icon-external-link"></i></a></td></tr>
+                                             
+                                             <tr style="font-size: 1.2em;"><td><b><a href="http://www.kdd.org/kdd-cup/view/kdd-cup-2004">KDD Cup 2004</a></b></td><td>Particle physics; plus protein homology prediction</td><td><a href="http://www.kdd.org/kdd-cup/view/kdd-cup-2004"><i class="i-plain icon-external-link"></i></a></td></tr>
+                                             
+                                             <tr style="font-size: 1.2em;"><td><b><a href="http://www.kdd.org/kdd-cup/view/kdd-cup-2003">KDD Cup 2003</a></b></td><td>Network mining and usage log analysis</td><td><a href="http://www.kdd.org/kdd-cup/view/kdd-cup-2003"><i class="i-plain icon-external-link"></i></a></td></tr>
+                                             
+                                             <tr style="font-size: 1.2em;"><td><b><a href="http://www.kdd.org/kdd-cup/view/kdd-cup-2002">KDD Cup 2002</a></b></td><td>BioMed document; plus gene role classification</td><td><a href="http://www.kdd.org/kdd-cup/view/kdd-cup-2002"><i class="i-plain icon-external-link"></i></a></td></tr>
+                                             
+                                             <tr style="font-size: 1.2em;"><td><b><a href="http://www.kdd.org/kdd-cup/view/kdd-cup-2001">KDD Cup 2001</a></b></td><td>Molecular bioactivity; plus protein locale prediction</td><td><a href="http://www.kdd.org/kdd-cup/view/kdd-cup-2001"><i class="i-plain icon-external-link"></i></a></td></tr>
+                                             
+                                             <tr style="font-size: 1.2em;"><td><b><a href="http://www.kdd.org/kdd-cup/view/kdd-cup-2000">KDD Cup 2000</a></b></td><td>Online retailer website clickstream analysis</td><td><a href="http://www.kdd.org/kdd-cup/view/kdd-cup-2000"><i class="i-plain icon-external-link"></i></a></td></tr>
+                                             
+                                             <tr style="font-size: 1.2em;"><td><b><a href="http://www.kdd.org/kdd-cup/view/kdd-cup-1999">KDD Cup 1999</a></b></td><td>Computer network intrusion detection</td><td><a href="http://www.kdd.org/kdd-cup/view/kdd-cup-1999"><i class="i-plain icon-external-link"></i></a></td></tr>
+                                             
+                                             <tr style="font-size: 1.2em;"><td><b><a href="http://www.kdd.org/kdd-cup/view/kdd-cup-1998">KDD Cup 1998</a></b></td><td>Direct marketing for profit optimization</td><td><a href="http://www.kdd.org/kdd-cup/view/kdd-cup-1998"><i class="i-plain icon-external-link"></i></a></td></tr>
+                                             
+                                             <tr style="font-size: 1.2em;"><td><b><a href="http://www.kdd.org/kdd-cup/view/kdd-cup-1997">KDD Cup 1997</a></b></td><td>Direct marketing for lift curve optimization</td><td><a href="http://www.kdd.org/kdd-cup/view/kdd-cup-1997"><i class="i-plain icon-external-link"></i></a></td></tr>
+                                             
+                         </tbody>
+                         </table>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+						## KDDCUP 2016
+
+						### 通过评估研究机构的影响力判断论文的采纳程度
+						### Whose papers are accepted the most: towards measuring the impact of research institutions
+
+
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+					## KDDCUP 2016 
+
+					给定任意一个2016年即将到来的顶级会议如KDD，SIGIR，ICML，使用任何公开可获取的数据比如微软学术图谱，基于对研究机构被采纳论文数量的预测对他们的影响力进行排序。
+
+					
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+					## KDDCUP 2016
+
+					参赛者可以使用任何从互联网上获取的信息，包括微软学术图谱这样有层次性的信息来预测下一年的顶级研究机构。以KDD为例，对于排序有帮助的信息包括但不限于以下：
+					1. 上几年的KDD顶级机构  
+					2. 上几年KDD论文的主题趋势  
+					3. 上几年的KDD的顶级作者的影响力（基于论文引用图谱）  
+					4. 每年KDD的会议地点，因为靠近会议地点的机构往往有更高的展示机会  
+					5. 另一些和KDD有关的会议和期刊的信息，如ICDM，ICML，WWW，CIKM，TKDD  
+					6. 合作作者的因素   
+					7. 关联的时间信息
+
+						
+
+
+					</script>
+				</section>
+				
+				<section data-markdown>
+					<script type="text/template">
+					## KDDCUP 2015 
+					### Predicting dropouts in MOOC
+					### 用大数据预测MOOCer是否会『翘课』
+
+
+					
+					</script>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+					## KDDCUP 2015 
+					学生们在mooc平台上的退学率居高不下，预测他们的退课喜好对于留住学生，鼓励学生保持学习动力有很大的帮助。因此，KDDCup 2015的任务是对学堂在线（中国最大的mooc平台之一）的退学率进行预测。
+
+					参赛者需要根据一个用户之前在mooc上的行为预测他在接下来的10天内是否会退出mooc。如果用户C在接下来的10天中在课程C上没有留下任何记录，我们将其定义为从课程C上退出。
+
+
+					
+					</script>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+					## KDDCUP 2014 
+					### Predict funding requests that deserve an A+
+					### 预测有资格获得A+的资助申请
+					
+					</script>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+					## KDDCUP 2014 
+					DonorsChoose.org是一个通过学校捐赠帮助困难学生的在线慈善机构，每天都有成千上万来自K-12学校的教师提交审核材料项目来帮助他们的学生完成学业。当一个项目达到捐助目标时，他们将材料寄给学校。
+					
+
+					</script>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+					## KDDCUP 2014 
+		
+					
+					2014KDD Cup的要求参赛者帮助DonorsChoose.org 在项目投递的时候识别出最需要经济支持的项目。网站中的所有项目包含了各种类型的需求，一些特定的项目比普通项目有更高的资质获得捐助，通过尽早识别和推荐这样的项目将会提升捐助的成果，带来更好的用户体验，从而帮助更多的学生完成学业。
+
+					参赛者需要运用自然语言处理、数据挖掘、基于分类因子的监督学习等多种方法来识别出需要及时捐助的项目。
+
+					</script>
+				</section>
+				
+				<section data-markdown>
+					<script type="text/template">
+					## KDDCUP 2013 
+		
+					### Determine whether an author has written a given paper 
+					### 文章作者傻傻分不清楚？用大数据来确定
+
+					</script>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+					## KDDCUP 2013 
+					微软学术搜索是一个为研究机构提供学术资料搜索和评价功能的开放平台，它包含了超过5千万出版物和超过1900万来自各个学科领域的作者，并且每周都会更新。提供这种服务的一个主要挑战来自于对作者名字的混淆。一方面，很多作者出版作品的时候会使用他们名字的多种变体。另一方面，很多作者的名字都是类似甚至是相同的。 
+
+					因此，一个名字经常被混淆的作者的个人资料往往不甚准确，很多文章被误认为发表于他/她之手。本次KDDCup的挑战在于识别出一个作者个人资料里的文章是不是真的是他/她本人发表的
+
+
+					</script>
+				</section>
+				
+				<section data-markdown>
+					<script type="text/template">
+					## KDDCUP 2012(Track 1)
+		
+					### Predict which users (or information sources) one user might follow in Tencent Weibo
+					### 猜猜在腾讯微博上他是谁的粉丝？
+
+					</script>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+					## KDDCUP 2012(Track 1)
+		
+					根据腾讯微博中的用户属性（User Profile）、SNS社交关系、在社交网络中的互动记录（retweet、comment、at）等，以及过去30天内的历史item推荐记录，来预测接下来最有可能被用户接受的推荐item列表
+
+
+					</script>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+					## KDDCUP 2012(Track 2)
+		
+					### Predict the click-through rate of ads given the query and user information
+					### 他会看我的广告吗？
+
+					</script>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+					## KDDCUP 2012(Track 2)
+		
+					提供用户在腾讯搜索的查询词（query）、展现的广告信息（包括广告标题、描述、url等），以及广告的相对位置（多条广告中的排名）和用户点击情况，以及广告主和用户的属性信息，来预测后续时间用户对广告的点击情况
+
+
+
+					</script>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+					## KDDCUP 2011
+		
+					### Predict music ratings and identify favorite songs
+
+					### 音乐评分预测
+
+					</script>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+					## KDDCUP 2011
+		
+					根据用户在雅虎音乐上item的历史评分记录，来预测用户对其他item（包括歌曲、专辑等）的评分和实际评分之间的差异RMSE（最小均方误差）。同时提供的还有歌曲所属的专辑、歌手、曲风等信息
+
+
+
+					</script>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+					## KDDCUP 2010
+		
+					### Student performance evaluation
+					### 预测学生的考试成绩
+
+					</script>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+					## KDDCUP 2010
+		
+					根据智能教学辅导系统和学生之间的交互日志，来预测学生数学题的考试成绩。该任务兼具实践重要性和科学趣味性。竞赛提供3个开发（develop）数据集和2个挑战（challenge）数据集，每个数据集又分为训练（train）部分和测试（test）部分。Challenge数据集的test部分被隐藏，参赛者需要开发一种学习模型，来准确预测这部分隐藏部分的成绩
+
+
+					</script>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+					## KDDCUP 2009
+		
+					### Customer relationship prediction
+					### 评估客户属性
+
+					</script>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+					## KDDCUP 2009
+		
+					法国电信运营商Orange的大规模数据中，积累了大量客户的行为记录。竞赛者需要设计一个良好的客户关系管理系统（CRM），用快速、稳定的方法，预测客户三个维度的属性，包括：  
+					1. 忠诚度：用户切换运营商的可能性（Churn）；
+					2. 购买欲：购买新服务的可能性（Appetency）；
+					3. 增值性：客户升级或追加购买高利润产品的可能性（Up-selling）。
+
+					结果用AUC曲线来评估
+
+
+					</script>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+					## KDDCUP 2008
+		
+					### Breast cancer 
+					### 乳腺癌检测 
+
+					</script>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+					## KDDCUP 2008
+		
+					医学影像学的一个重要应用是乳腺癌的检测。每年全球有46.5万女性患者被乳腺癌夺走性命，但在1990年后通过引入X-射线进行检测，能够成功的在发病早期发现病兆并进行治疗，成功降低了30%的疾病死亡率。传统方式由放射学医生来进行X相片的检测，耗时耗力，而且为了提高检测的准确率，往往需要多位医生重复判读图像。 
+
+					基于此背景，本届赛题分为两个Track，分别是设计计算机辅助检测系统（Computer-Aided Detection，CAD），来判读图像是否含有乳腺癌病兆；以及设计二分分类器（binary classification），来决定某样本是否需要医生来进行重复判读。
+
+					</script>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+					## KDDCUP 2007
+		
+					### 预测电影评价问题
+					### 预测电影评价问题
+
+					</script>
+				</section>
+				
+				<section>
+					<h1>Thanks</h1>
+				</section>
+			
+
+			</div>
+
+		</div>
+
+
+		<script src="http://cdn.bootcss.com/reveal.js/3.3.0/lib/js/head.min.js"></script>
+		<script src="http://cdn.bootcss.com/reveal.js/3.3.0/js/reveal.min.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'http://cdn.bootcss.com/reveal.js/3.3.0/plugin/markdown/marked.min.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'http://cdn.bootcss.com/reveal.js/3.3.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'http://cdn.bootcss.com/reveal.js/3.3.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'http://cdn.bootcss.com/reveal.js/3.3.0/plugin/zoom-js/zoom.js', async: true },
+					{ src: 'http://cdn.bootcss.com/reveal.js/3.3.0/plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+
+	</body>
+</html>
